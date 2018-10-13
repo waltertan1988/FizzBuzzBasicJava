@@ -1,4 +1,4 @@
-# FizzBuzz1
+# FizzBuzzBasicJava
 FizzBuzz implemented with basic java 
 
 Notice:
