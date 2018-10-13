@@ -9,14 +9,13 @@ import com.walter.fizzbuzz.service.FizzBuzzService;
 
 public class FizzBuzzServiceImpl implements FizzBuzzService {
 
-	@Override
-	public String output(int n, List<IntegerToStringService> IntegerToStringServiceList,
+	public String output(int n, List<IntegerToStringService> integerToStringServiceList,
 			FizzBuzzStratageEnum fizzBuzzStratage) {
 
 		StringBuffer result = new StringBuffer();
 
 		if (FizzBuzzStratageEnum.APPEND_ALL_ASC.getCode().equals(fizzBuzzStratage.getCode())) {
-			for (IntegerToStringService calcService : IntegerToStringServiceList) {
+			for (IntegerToStringService calcService : integerToStringServiceList) {
 				if (calcService.support(n)) {
 					result.append(calcService.transfer(n));
 				}
