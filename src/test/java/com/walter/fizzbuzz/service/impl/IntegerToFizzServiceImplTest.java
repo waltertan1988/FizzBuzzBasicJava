@@ -23,6 +23,12 @@ public class IntegerToFizzServiceImplTest {
 	}
 	
 	@Test
+	public void supportTrueStage2() {
+		int n = 31;
+		Assert.assertTrue(integerToStringService.support(n));
+	}
+	
+	@Test
 	public void supportFalse() {
 		int n = 5;
 		Assert.assertFalse(integerToStringService.support(n));
