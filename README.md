@@ -1,3 +1,4 @@
+# 参考我代码的朋友，麻烦给个Star先
 # FizzBuzzBasicJava
 FizzBuzz implemented with basic java 
 
